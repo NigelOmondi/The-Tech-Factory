@@ -4,7 +4,7 @@ import React from 'react'
 const Index = () => {
   return (
     <View style={styles.container}>
-      <Text>Public Entry Page</Text>
+      <Text style={{color: 'white'}}>Public Entry</Text>
     </View>
   )
 }
