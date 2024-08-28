@@ -12,8 +12,17 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+
+   const [loaded] = useFonts({
+    "Prompt-Thin": require("../../assets/fonts/Prompt-Thin.ttf"),
+    "Prompt-ExtraLight": require("../../assets/fonts/Prompt-ExtraLight.ttf"),
+    "Prompt-Light": require("../../assets/fonts/Prompt-Light.ttf"),
+    "Prompt-Regular": require("../../assets/fonts/Prompt-Regular.ttf"),
+    "Prompt-Medium": require("../../assets/fonts/Prompt-Medium.ttf"),
+    "Prompt-SemiBold": require("../../assets/fonts/Prompt-SemiBold.ttf"),
+    "Prompt-Bold": require("../../assets/fonts/Prompt-Bold.ttf"),
+    "Prompt-MediumItalic": require("../../assets/fonts/Prompt-MediumItalic.ttf"),
+    "Prompt-LightItalic": require("../../assets/fonts/Prompt-LightItalic.ttf"),
   });
 
   useEffect(() => {
