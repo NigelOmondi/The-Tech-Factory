@@ -7,8 +7,12 @@
     "icon": "./assets/images/icon.png",
     "scheme": "techfactory",
     "userInterfaceStyle": "automatic",
+    "androidStatusBar": {
+     
+      "barStyle": "light-content"
+    },
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/splish.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/techfactoryicon.png",
         "backgroundColor": "#ffffff"
       },
       "versionCode": 21,
